@@ -14,11 +14,11 @@ function getRandomNumbers(limit = 2) {
 // o'yinchilar uchun tasodifiy rasm chiqarish
 function setImageAttribute(random_num, img) {
     if(random_num == 0) {
-        img.setAttribute('src', './img/paper.png');
+        img.setAttribute('src', 'paper.png');
     } else if( random_num == 1) {
-        img.setAttribute('src', './img/rock.png');
+        img.setAttribute('src', 'rock.png');
     } else {
-        img.setAttribute('src', './img/scissors.png');
+        img.setAttribute('src', 'scissors.png');
     }
 }
 
